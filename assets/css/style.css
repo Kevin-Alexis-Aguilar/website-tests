@@ -150,7 +150,7 @@ ol, ul li{
   margin: auto;
 }
 
-#student-name, #student-Id {
+#studentName, #studentId {
   border-radius: 0.444em;
   border-style: hidden;
   box-sizing: border-box;
