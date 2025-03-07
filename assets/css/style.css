@@ -31,6 +31,10 @@ html, body {
   flex-direction: column;
 }
 
+ol, ul {
+  list-style: none;
+}
+
 /* --- Header --- */
 .site-header {
   background-color: var(--primary-color);
