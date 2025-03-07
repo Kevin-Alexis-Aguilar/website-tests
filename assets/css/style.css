@@ -31,6 +31,7 @@ html, body {
   flex-direction: column;
 }
 
+/* --- Removes bullet points and numbers from lists by default---*/
 ol, ul li{
   list-style: none;
 }
@@ -139,4 +140,23 @@ ol, ul li{
 .site-footer p {
   font-size: 0.9rem;
   color: #666666;
+}
+
+
+/* --- Inputs --- */
+.student-form-inputs {
+  font: inherit;
+  max-width: 15em;
+  margin: auto;
+}
+
+#student-name, #student-Id {
+  border-radius: 0.444em;
+  border-style: hidden;
+  box-sizing: border-box;
+  margin-top: 0.222em;
+  margin-bottom: 0.50em;
+  padding: 0.444em 0.444em;
+  width: 100%;
+  max-width: 100%;
 }
