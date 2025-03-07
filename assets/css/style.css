@@ -31,7 +31,7 @@ html, body {
   flex-direction: column;
 }
 
-ol, ul {
+ol, ul li{
   list-style: none;
 }
 
