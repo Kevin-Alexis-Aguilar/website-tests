@@ -143,15 +143,17 @@ ol, ul li{
 }
 
 
-/* --- Inputs --- */
+/* --- Form Inputs --- */
+/*As of 03/08/2025 the default font of the webpages are 16 pixels*/
+
+input {
+  font-size: 1.125em; /* 18px / 16px = 1.125em*/
+}
+
 .student-form-inputs {
   font: inherit;
   max-width: 15em;
   margin: auto;
-}
-
-.form-field {
-  font-size: 2em;
 }
 
 #studentName, #studentId {
