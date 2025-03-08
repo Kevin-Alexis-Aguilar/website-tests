@@ -150,6 +150,10 @@ ol, ul li{
   margin: auto;
 }
 
+.form-field {
+  font-size: 2em;
+}
+
 #studentName, #studentId {
   border-radius: 0.444em;
   border-style: hidden;
