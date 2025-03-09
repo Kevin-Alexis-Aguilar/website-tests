@@ -85,13 +85,12 @@ ol, ul li{
   margin: 10rem auto;
   padding: 0 0.5rem;
   text-align: center;
-  background-color: #ffffffd0;        /* White background */
-  border-radius: 8px;           /* Rounded corners */
-  padding: 1.5rem;                /* Padding for spacing */
-  margin-bottom: 1rem;          /* Spacing to separate from buttons */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+  background-color: #ffffffd0;            /* White background */
+  border-radius: 8px;                       /* Rounded corners */
+  padding: 1.5rem;                          /* Padding for spacing */
+  margin-bottom: 1rem;                      /* Spacing to separate from buttons */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);  /* Subtle shadow */
 }
-
 
 .emphasis {
   font-size: 1.5rem;
@@ -115,8 +114,8 @@ ol, ul li{
 .btn {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  padding: 1rem 2rem;
-  font-size: 1.125rem; /*18px = 1.125rem*/
+  padding: 1rem 2rem;  /*16px=1rem & 32px=2rem*/
+  font-size: 1.125rem; /*18px=1.125rem*/
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -127,6 +126,30 @@ ol, ul li{
 
 .btn:hover {
   background-color: #990000; /* Slightly darker red */
+}
+
+/* --- Form Inputs (Not Including Buttons) --- */
+/*As of 03/08/2025 the default font is 16 pixels*/
+
+input {
+  font-size: 1em; /*16px/16px=1em*/
+}
+
+.student-form-inputs, .employee-form-inputs {
+  font: inherit;
+  max-width: 15em; /*240px/16px=15em*/
+  margin: auto;
+}
+
+#studentName, #studentId, #empNumber, #empPin {
+  border-radius: 0.50em;  /*8px/16px=0.50em*/
+  border-style: hidden;
+  box-sizing: border-box;
+  margin-top: 0.25em;     /*4px/16px=0.25em*/
+  margin-bottom: 0.50em;  /*8px/16px=0.50em*/
+  padding: 0.50em 0.50em; /*8px/16px=0.50em*/
+  width: 100%;
+  max-width: 100%;
 }
 
 /* --- Footer --- */
@@ -140,29 +163,4 @@ ol, ul li{
 .site-footer p {
   font-size: 0.9rem;
   color: #666666;
-}
-
-
-/* --- Form Inputs (Not Including Buttons) --- */
-/*As of 03/08/2025 the default font is 16 pixels*/
-
-input {
-  font-size: 1em; /* 16px / 16px = 1em*/
-}
-
-.student-form-inputs, .employee-form-inputs {
-  font: inherit;
-  max-width: 15em;
-  margin: auto;
-}
-
-#studentName, #studentId, #empNumber, #empPin {
-  border-radius: 0.444em;
-  border-style: hidden;
-  box-sizing: border-box;
-  margin-top: 0.222em;
-  margin-bottom: 0.50em;
-  padding: 0.444em 0.444em;
-  width: 100%;
-  max-width: 100%;
 }
